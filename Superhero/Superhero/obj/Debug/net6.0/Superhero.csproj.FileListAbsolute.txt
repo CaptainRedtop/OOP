@@ -1,0 +1,15 @@
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\bin\Debug\net6.0\Superhero.exe
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\bin\Debug\net6.0\Superhero.deps.json
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\bin\Debug\net6.0\Superhero.runtimeconfig.json
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\bin\Debug\net6.0\Superhero.dll
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\bin\Debug\net6.0\Superhero.pdb
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\obj\Debug\net6.0\Superhero.csproj.AssemblyReference.cache
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\obj\Debug\net6.0\Superhero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\obj\Debug\net6.0\Superhero.AssemblyInfoInputs.cache
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\obj\Debug\net6.0\Superhero.AssemblyInfo.cs
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\obj\Debug\net6.0\Superhero.csproj.CoreCompileInputs.cache
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\obj\Debug\net6.0\Superhero.dll
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\obj\Debug\net6.0\refint\Superhero.dll
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\obj\Debug\net6.0\Superhero.pdb
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\obj\Debug\net6.0\Superhero.genruntimeconfig.cache
+C:\Users\zbc23nksk\source\repos\Superhero\Superhero\obj\Debug\net6.0\ref\Superhero.dll
