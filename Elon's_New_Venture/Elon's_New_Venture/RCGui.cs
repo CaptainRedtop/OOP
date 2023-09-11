@@ -18,8 +18,8 @@ namespace Elon_s_New_Venture
             Console.WriteLine("\n\nWhat would you like to do?\n");
             Console.WriteLine("1. Drive a car.");
             Console.WriteLine("2. Charge a car.");
-            Console.WriteLine("3. Get a list of cars.");
-            Console.Write("Press 1-4 on your keyboard to choose: ");
+            Console.WriteLine("3. Check battery status");
+            Console.Write("Press 1-3 on your keyboard to choose: ");
         }
         public void DriveCar()
         {
@@ -30,11 +30,17 @@ namespace Elon_s_New_Venture
         }
         public void ChargeCar()
         {
-
+            Console.Clear();
+            Console.WriteLine("All cars have been charged");
+            Console.ReadKey();
         }
-        public void ListCar()
+        public void BatteryStatus(byte car1Charge, byte car2Charge)
         {
-
+            Console.Clear();
+            Console.WriteLine("Car 1: " + car1Charge);
+            Console.WriteLine("Car 2: " + car2Charge);
+            Console.ReadKey();
+            
         }
         public void Error(int errorNum)
         {
@@ -42,12 +48,12 @@ namespace Elon_s_New_Venture
             {
                 case 0:
                     {
-                        Console.WriteLine("Wrong input, try again");
+                        Console.WriteLine("\nWrong input, try again");
                         break;
                     }
                 case 1:
                     {
-                        Console.WriteLine("Car is not charged");
+                        Console.WriteLine("\nCar is not charged");
                         break;
                     }
                 case 2:
@@ -55,6 +61,7 @@ namespace Elon_s_New_Venture
                         break;
                     }
             }
+            Console.ReadKey();
         }
     }
 }
