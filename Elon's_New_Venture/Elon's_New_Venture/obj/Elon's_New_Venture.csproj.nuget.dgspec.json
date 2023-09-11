@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zbc23nksk\\Source\\Repos\\OOP\\Elon's_New_Venture\\Elon's_New_Venture\\Elon's_New_Venture.csproj": {}
+    "C:\\Users\\klich\\Source\\Repos\\CaptainRedtop\\OOP\\Elon's_New_Venture\\Elon's_New_Venture\\Elon's_New_Venture.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zbc23nksk\\Source\\Repos\\OOP\\Elon's_New_Venture\\Elon's_New_Venture\\Elon's_New_Venture.csproj": {
+    "C:\\Users\\klich\\Source\\Repos\\CaptainRedtop\\OOP\\Elon's_New_Venture\\Elon's_New_Venture\\Elon's_New_Venture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zbc23nksk\\Source\\Repos\\OOP\\Elon's_New_Venture\\Elon's_New_Venture\\Elon's_New_Venture.csproj",
+        "projectUniqueName": "C:\\Users\\klich\\Source\\Repos\\CaptainRedtop\\OOP\\Elon's_New_Venture\\Elon's_New_Venture\\Elon's_New_Venture.csproj",
         "projectName": "Elon's_New_Venture",
-        "projectPath": "C:\\Users\\zbc23nksk\\Source\\Repos\\OOP\\Elon's_New_Venture\\Elon's_New_Venture\\Elon's_New_Venture.csproj",
-        "packagesPath": "C:\\Users\\zbc23nksk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zbc23nksk\\Source\\Repos\\OOP\\Elon's_New_Venture\\Elon's_New_Venture\\obj\\",
+        "projectPath": "C:\\Users\\klich\\Source\\Repos\\CaptainRedtop\\OOP\\Elon's_New_Venture\\Elon's_New_Venture\\Elon's_New_Venture.csproj",
+        "packagesPath": "C:\\Users\\klich\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\klich\\source\\repos\\CaptainRedtop\\OOP\\Elon's_New_Venture\\Elon's_New_Venture\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\zbc23nksk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\klich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

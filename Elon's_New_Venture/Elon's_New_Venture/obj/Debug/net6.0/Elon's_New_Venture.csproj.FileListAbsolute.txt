@@ -1,0 +1,14 @@
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Elon's_New_Venture\Elon's_New_Venture\obj\Debug\net6.0\Elon's_New_Venture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Elon's_New_Venture\Elon's_New_Venture\obj\Debug\net6.0\Elon's_New_Venture.AssemblyInfoInputs.cache
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Elon's_New_Venture\Elon's_New_Venture\obj\Debug\net6.0\Elon's_New_Venture.AssemblyInfo.cs
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Elon's_New_Venture\Elon's_New_Venture\obj\Debug\net6.0\Elon's_New_Venture.csproj.CoreCompileInputs.cache
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Elon's_New_Venture\Elon's_New_Venture\bin\Debug\net6.0\Elon's_New_Venture.exe
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Elon's_New_Venture\Elon's_New_Venture\bin\Debug\net6.0\Elon's_New_Venture.deps.json
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Elon's_New_Venture\Elon's_New_Venture\bin\Debug\net6.0\Elon's_New_Venture.runtimeconfig.json
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Elon's_New_Venture\Elon's_New_Venture\bin\Debug\net6.0\Elon's_New_Venture.dll
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Elon's_New_Venture\Elon's_New_Venture\bin\Debug\net6.0\Elon's_New_Venture.pdb
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Elon's_New_Venture\Elon's_New_Venture\obj\Debug\net6.0\Elon's_New_Venture.dll
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Elon's_New_Venture\Elon's_New_Venture\obj\Debug\net6.0\refint\Elon's_New_Venture.dll
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Elon's_New_Venture\Elon's_New_Venture\obj\Debug\net6.0\Elon's_New_Venture.pdb
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Elon's_New_Venture\Elon's_New_Venture\obj\Debug\net6.0\Elon's_New_Venture.genruntimeconfig.cache
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Elon's_New_Venture\Elon's_New_Venture\obj\Debug\net6.0\ref\Elon's_New_Venture.dll

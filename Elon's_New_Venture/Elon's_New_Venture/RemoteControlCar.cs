@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -9,11 +10,11 @@ namespace Elon_s_New_Venture
 {
 	public class RemoteControlCar
 	{
-		private string _carColor;
-		private short _metersDriven = 0;
-		private byte _batteryCapacity = 100;
+		private Color _carColor;
+		private short _metersDriven;
+		private byte _batteryCharge;
 
-		public string CarColor
+		public Color CarColor
 		{
 			get { return _carColor; }
 			set { _carColor = value; }
@@ -24,10 +25,10 @@ namespace Elon_s_New_Venture
 			get { return _metersDriven; }
 			set { _metersDriven = value; }
 		}
-		public byte BatteryCapacity
+		public byte BatteryChage
 		{
-			get { return (byte)_batteryCapacity; }
-			set { _batteryCapacity = value; }
+			get { return (byte)_batteryCharge; }
+			set { _batteryCharge = value; }
 		}
 	}
 }

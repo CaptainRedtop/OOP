@@ -1,10 +1,13 @@
-﻿namespace Elon_s_New_Venture
+﻿using System.Drawing;
+
+namespace Elon_s_New_Venture
 {
 	internal class Program
 	{
-		private void Main(string[] args)
+		static void Main(string[] args)
 		{
-			RCController();
+            RCController startController = new RCController();
+			startController.StartController();
 		}
 	}
 }
