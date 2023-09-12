@@ -37,8 +37,8 @@ namespace Elon_s_New_Venture
         public void BatteryStatus(byte car1Charge, byte car2Charge)
         {
             Console.Clear();
-            Console.WriteLine("Car 1: " + car1Charge);
-            Console.WriteLine("Car 2: " + car2Charge);
+            Console.WriteLine("Car 1: " + car1Charge + "%");
+            Console.WriteLine("Car 2: " + car2Charge + "%");
             Console.ReadKey();
             
         }
