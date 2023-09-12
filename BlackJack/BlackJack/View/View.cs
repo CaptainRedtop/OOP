@@ -10,6 +10,7 @@ namespace BlackJack.View
     {
         public void MainMenu()
         {
+            //Display the main screen
             Console.WriteLine("Welcome to Blackjack\n");
             Console.WriteLine("The rules are:");
             Console.WriteLine("Get a total hand value of 21 or be the closest.\n" +
@@ -22,6 +23,7 @@ namespace BlackJack.View
         }
         public void Hands(string[] player, string[] dealer, int playerScore, int dealerScore)
         {
+            //Display the game screen
             Console.WriteLine("Your hand is:");
             for (uint i = 0; i < player.Length; i++)
             {

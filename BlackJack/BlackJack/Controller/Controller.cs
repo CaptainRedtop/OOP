@@ -23,13 +23,14 @@ namespace BlackJack.Controller
             string[] deck = cards.Deck();
             //Shuffle the deck
             ShuffleDeck(deck);
-            //Dealing cards
+            //Give cards
             string[] playerhand = new string[5];
             string[] dealerhand = new string[5];
             playerhand[0] = deck[0];
             dealerhand[0] = deck[1];
             playerhand[1] = deck[2];
             dealerhand[1] = deck[3];
+            //GameStart
             int playerscore = CalculateHandValue(playerhand);
             int dealerscore = CalculateHandValue(dealerhand);
             gui.Hands(playerhand, dealerhand, playerscore, dealerscore);
