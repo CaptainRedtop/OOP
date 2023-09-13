@@ -29,8 +29,12 @@ namespace Planets.Controller
 			RemovePluto();
 			AddPluto();
 			gui.GUI(planets);
-			Console.ReadKey();
-		}
+			MeanTemperature();
+			PlanetDiameter();
+			RemoveAll();
+			
+
+        }
 		public void AddVenus()
 		{
 			planets.Insert(1, Venus);
@@ -43,18 +47,39 @@ namespace Planets.Controller
 		{
 			planets.Add(Pluto);
 		}
+		
 		public void MeanTemperature()
 		{
-			List<Model.Planets> plantesUnder0 = new List<Model.Planets>();
+			//Finding all plantest with a mean temperature under 0
+			List<Model.Planets> planetsUnder0 = new List<Model.Planets>();
 
-			foreach (var planet in planets)
+			foreach (Model.Planets planetLow in planets)
 			{
-				if (planet[10] < 0)
+				if (planetLow._meanTemperature < 0)
 				{
-
+					planetsUnder0.Add(planetLow);
 				}
 			}
+			gui.LowMeanTemp(planetsUnder0);
 		}
+		public void PlanetDiameter()
+		{
+            //Finding all plantest with a diameter above 10000km but below 50000km
+            List<Model.Planets> planetDiameter = new List<Model.Planets>();
 
+            foreach (Model.Planets planet in planets)
+            {
+                if (planet._diameter > 10000 && planet._diameter < 50000)
+                {
+                    planetDiameter.Add(planet);
+                }
+            }
+			gui.PlanetDiameter(planetDiameter);
+        }
+		public void RemoveAll()
+		{
+			planets.Clear();
+			gui.LastList(planets);
+		}
 	}
 }

@@ -8,19 +8,19 @@ namespace Planets.Model
 {
     internal class Planets
     {
-		private string _name;
-        private float _mass;
-        private int _diameter;
-        private short _density;
-        private float _gravity;
-        private float _rotationPeriod;
-        private float _lengthOfDay;
-        private float _distanceFromSun;
-        private float _orbitalPeriod;
-        private float _orbitalVelocity;
-        private short _meanTemperature;
-        private byte _numberOfMoons;
-        private bool _ringSystem;
+		public string _name;
+        public float _mass;
+        public int _diameter;
+        public short _density;
+        public float _gravity;
+        public float _rotationPeriod;
+        public float _lengthOfDay;
+        public float _distanceFromSun;
+        public float _orbitalPeriod;
+        public float _orbitalVelocity;
+        public short _meanTemperature;
+        public byte _numberOfMoons;
+        public bool _ringSystem;
 
 		public Planets(string name, float mass, int diameter, short density, float gravity, float rotationPeriod, float lengthOfDay, float distanceFromSun, float orbitalPeriod, float orbitalVelocity, short meanTemperature, byte numberOfMoons, bool ringSystem)
 		{

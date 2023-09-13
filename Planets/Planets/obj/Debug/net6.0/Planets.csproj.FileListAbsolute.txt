@@ -13,3 +13,17 @@ C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\obj\Debug\net6.0\refint\Plan
 C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\obj\Debug\net6.0\Planets.pdb
 C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\obj\Debug\net6.0\Planets.genruntimeconfig.cache
 C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\obj\Debug\net6.0\ref\Planets.dll
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Planets\Planets\bin\Debug\net6.0\Planets.exe
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Planets\Planets\bin\Debug\net6.0\Planets.deps.json
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Planets\Planets\bin\Debug\net6.0\Planets.runtimeconfig.json
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Planets\Planets\bin\Debug\net6.0\Planets.dll
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Planets\Planets\bin\Debug\net6.0\Planets.pdb
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Planets\Planets\obj\Debug\net6.0\Planets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Planets\Planets\obj\Debug\net6.0\Planets.AssemblyInfoInputs.cache
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Planets\Planets\obj\Debug\net6.0\Planets.AssemblyInfo.cs
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Planets\Planets\obj\Debug\net6.0\Planets.csproj.CoreCompileInputs.cache
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Planets\Planets\obj\Debug\net6.0\Planets.dll
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Planets\Planets\obj\Debug\net6.0\refint\Planets.dll
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Planets\Planets\obj\Debug\net6.0\Planets.pdb
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Planets\Planets\obj\Debug\net6.0\Planets.genruntimeconfig.cache
+C:\Users\klich\Source\Repos\CaptainRedtop\OOP\Planets\Planets\obj\Debug\net6.0\ref\Planets.dll
