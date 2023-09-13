@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BlackJack.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,19 +22,49 @@ namespace BlackJack.View
             Console.ReadKey();
             Console.Clear();
         }
-        public void Hands(string[] player, string[] dealer, int playerScore, int dealerScore)
+        public void Hand(List<Model.Cards> hand, int Score)
         {
-            //Display the game screen
-            Console.WriteLine("Your hand is:");
-            for (uint i = 0; i < player.Length; i++)
+            foreach (var card in hand)
             {
-                Console.WriteLine(player[i]);
+                Console.WriteLine($"{card.FaceValue} of {card.Suit}");
             }
-            Console.WriteLine("Your total handscore is: " + playerScore + "\n");
-            Console.WriteLine("Dealers hand is: ");
-            Console.WriteLine(dealer.First());
-            Console.WriteLine("Hidden\n");
-            Console.WriteLine("What do you want to hit or stand? 'h/s'");
+            Console.WriteLine($"Total Value: {Score}");
+            Console.WriteLine();
         }
+        public void PartialHand(List<Cards> hand)
+        {
+            Console.WriteLine($"{hand[0].FaceValue} of {hand[0].Suit}");
+            Console.WriteLine("Total Value: ?");
+        }
+
+        public string HitorStand()
+        {
+            while (true)
+            {
+                Console.WriteLine("Do you want to 'Hit' or 'Stand'?");
+                string choice = Console.ReadLine().ToLower();
+                if (choice == "hit" || choice == "stand")
+                {
+                    return choice;
+                }
+                else
+                {
+                    Console.WriteLine("Can't do that, try agian");
+                }
+            }
+        }
+        public void Playerbust()
+        {
+            Console.WriteLine("\nYou bust. Dealer takes the game");
+        }
+        public void PlayerWin()
+        {
+            Console.WriteLine("\nYou wins this game!");
+        }
+        public void DealerWin()
+        {
+            Console.WriteLine("\nDealer wins this game!");
+        }
+
     }
 }

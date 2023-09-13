@@ -9,84 +9,101 @@ namespace BlackJack.Controller
 {
     public class Controller
     {
-        Model.Cards cards = new Model.Cards();
+        Model.Cards card = new Model.Cards();
+        List<Cards> playerHand = new List<Cards>();
+        List<Cards> dealerHand = new List<Cards>();
         View.View gui = new View.View();
-
         public void StartController()
         {
             gui.MainMenu();
-            MainGame();
-        }
-        public void MainGame()
-        {
-            //Creating the deck
-            string[] deck = cards.Deck();
-            //Shuffle the deck
+            List<Cards> deck = card.CreateDeck();
             ShuffleDeck(deck);
-            //Give cards
-            string[] playerhand = new string[5];
-            string[] dealerhand = new string[5];
-            playerhand[0] = deck[0];
-            dealerhand[0] = deck[1];
-            playerhand[1] = deck[2];
-            dealerhand[1] = deck[3];
-            //GameStart
-            int playerscore = CalculateHandValue(playerhand);
-            int dealerscore = CalculateHandValue(dealerhand);
-            gui.Hands(playerhand, dealerhand, playerscore, dealerscore);
-            char choice = Convert.ToChar(Console.Read());
-            while (playerscore < 21)
+            MainGame(deck);
+        }
+        private void MainGame(List<Cards> deck)
+        {
+            // Deal initial cards
+            playerHand.Add(DealCard(deck));
+            dealerHand.Add(DealCard(deck));
+            playerHand.Add(DealCard(deck));
+            dealerHand.Add(DealCard(deck));
+            int playerScore = card.CalculateHandValue(playerHand);
+            int dealerScore = card.CalculateHandValue(dealerHand);
+            //Show hands
+            gui.Hand(playerHand, playerScore);
+            gui.PartialHand(dealerHand);
+
+            //Player turn
+            while (card.CalculateHandValue(playerHand) < 21)
             {
-                if (choice == 'h')
+                if (gui.HitorStand() == "hit")
                 {
-                    Console.Clear();
-                    playerhand[2] = deck[4];
-                    playerscore = CalculateHandValue(playerhand);
-                    gui.Hands(playerhand, dealerhand, playerscore, dealerscore);
-                    Console.Read();
+                    playerHand.Add(DealCard(deck));
+                    playerScore = card.CalculateHandValue(playerHand);
+                    gui.Hand(playerHand, playerScore);
                 }
-                else if (choice == 's')
+                else
                 {
                     break;
                 }
             }
+
+            //Dealer's turn
+            while (card.CalculateHandValue(dealerHand) < 17)
+            {
+                dealerHand.Add(DealCard(deck));
+            }
+
+            //Final hands
+            dealerScore = card.CalculateHandValue(dealerHand);
+            gui.Hand(playerHand, playerScore);
+            gui.Hand(dealerHand, dealerScore);
+
+            //Winner
+            int playerValue = card.CalculateHandValue(playerHand);
+            int dealerValue = card.CalculateHandValue(dealerHand);
+
+            if (playerValue > 21)
+            {
+                gui.Playerbust();
+                Console.ReadKey();
+            }
+            else if (dealerValue > 21 || playerValue > dealerValue)
+            {
+                gui.PlayerWin();
+                Console.ReadKey();
+            }
+            else if(dealerValue > playerValue)
+            {
+                gui.DealerWin();
+                Console.ReadKey();
+            }
+            else
+            {
+                gui.DealerWin();
+                Console.ReadKey();
+            }
+
         }
-        public string[] ShuffleDeck(string[] deck)
+        private void ShuffleDeck(List<Cards> deck)
         {
             Random rng = new Random();
-            int n = deck.Length;
-            while (n > 1)
+            int i = deck.Count;
+            while (i > 1)
             {
-                n--;
-                int k = rng.Next(n + 1);
-                string temp = deck[k];
-                deck[k] = deck[n];
-                deck[n] = temp;
+                i--;
+                int x = rng.Next(i + 1);
+                Cards card = deck[x];
+                deck[x] = deck[i];
+                deck[i] = card;
             }
-            return deck;
         }
-
-        public int CalculateHandValue(string[] hand)
+        private Cards DealCard(List<Cards> deck)
         {
-            int value = 0;
-            int numAces = 0;
-
-            foreach (var card in hand)
-            {
-                value += cards.GetValue();
-                if (hand.Contains("Ace"))
-                {
-                    numAces++;
-                }
-            }
-
-            while (numAces > 0 && value > 21)
-            {
-                value -= 10; // Convert Ace from 11 to 1
-                numAces--;
-            }
-
-            return value;
+            card = deck.First();
+            deck.RemoveAt(0);
+            return card;
         }
+
     }
 }
