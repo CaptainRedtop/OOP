@@ -1,0 +1,15 @@
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\bin\Debug\net6.0\Planets.exe
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\bin\Debug\net6.0\Planets.deps.json
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\bin\Debug\net6.0\Planets.runtimeconfig.json
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\bin\Debug\net6.0\Planets.dll
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\bin\Debug\net6.0\Planets.pdb
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\obj\Debug\net6.0\Planets.csproj.AssemblyReference.cache
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\obj\Debug\net6.0\Planets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\obj\Debug\net6.0\Planets.AssemblyInfoInputs.cache
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\obj\Debug\net6.0\Planets.AssemblyInfo.cs
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\obj\Debug\net6.0\Planets.csproj.CoreCompileInputs.cache
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\obj\Debug\net6.0\Planets.dll
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\obj\Debug\net6.0\refint\Planets.dll
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\obj\Debug\net6.0\Planets.pdb
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\obj\Debug\net6.0\Planets.genruntimeconfig.cache
+C:\Users\zbc23nksk\source\repos\OOP\Planets\Planets\obj\Debug\net6.0\ref\Planets.dll
