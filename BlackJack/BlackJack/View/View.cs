@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlackJack.View
 {
-    public class View
+    struct View
     {
         public void MainMenu()
         {
