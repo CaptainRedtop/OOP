@@ -34,6 +34,7 @@ namespace BlackJack.View
         public void PartialHand(List<Cards> hand)
         {
             Console.WriteLine($"{hand[0].FaceValue} of {hand[0].Suit}");
+            Console.WriteLine("Hidden");
             Console.WriteLine("Total Value: ?");
         }
 

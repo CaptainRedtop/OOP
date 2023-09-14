@@ -55,6 +55,7 @@ namespace BlackJack.Controller
             }
 
             //Final hands
+            Console.Clear();
             dealerScore = card.CalculateHandValue(dealerHand);
             gui.Hand(playerHand, playerScore);
             gui.Hand(dealerHand, dealerScore);

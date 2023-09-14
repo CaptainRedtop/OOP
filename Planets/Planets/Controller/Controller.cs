@@ -25,6 +25,7 @@ namespace Planets.Controller
 		Model.Planets Pluto = new Model.Planets("Pluto", 0.0146f, 2370, 2095, 0.7f, -153.3f, 153.3f, 5906.4f, 90.56f, 4.7f, -225, 5, false);
 		public void StartController()
 		{
+			gui.GUI(planets);
 			AddVenus();
 			RemovePluto();
 			AddPluto();
