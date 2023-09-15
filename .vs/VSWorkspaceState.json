@@ -1,10 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\BlackJack",
-    "\\BlackJack\\BlackJack",
-    "\\BlackJack\\BlackJack\\Controller"
+    ""
   ],
-  "SelectedNode": "\\BlackJack\\BlackJack\\Controller\\Controller.cs",
   "PreviewInSolutionExplorer": false
 }
