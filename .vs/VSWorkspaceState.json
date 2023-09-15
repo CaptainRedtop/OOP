@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BlackJack",
-    "\\BlackJack\\BlackJack",
-    "\\BlackJack\\BlackJack\\Controller"
+    "\\Libary",
+    "\\Libary\\Libary"
   ],
-  "SelectedNode": "\\BlackJack\\BlackJack\\Controller\\Controller.cs",
+  "SelectedNode": "\\Libary\\Libary\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
