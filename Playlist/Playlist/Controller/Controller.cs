@@ -9,7 +9,8 @@ namespace Playlist.Controller
 {
 	internal class Controller
 	{
-		Track tracks = new Track();
+		Track track = new Track();
+		Model.Playlist playlist = new Model.Playlist();
 		View.Gui gui = new View.Gui();
 		public void StartController()
 		{
@@ -22,20 +23,15 @@ namespace Playlist.Controller
 				{
 					case ConsoleKey.D1:
 						{
-							AddTrack();
+							AddTrackToPlaylist();
 							break;
 						}
 					case ConsoleKey.D2:
 						{
-							AddTrackToPlaylist();
-							break;
-						}
-					case ConsoleKey.D3:
-						{
 							ViewPlaylist();
 							break;
 						}
-					case ConsoleKey.D4:
+					case ConsoleKey.D3:
 						{
 							menu = false;
 							break;
@@ -43,17 +39,13 @@ namespace Playlist.Controller
 				}
 			}
 		}
-		public void AddTrack()
-		{
-			Track 
-		}
 		public void AddTrackToPlaylist()
 		{
-
+			
 		}
 		public void ViewPlaylist()
 		{
-
+			gui.Output(track.MetalCore);
 		}
 	}
 }

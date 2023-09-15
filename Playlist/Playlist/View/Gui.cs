@@ -14,12 +14,20 @@ namespace Playlist.View
 			Console.WriteLine("                    Playlist                    ");
 			Console.WriteLine("================================================");
 			Console.WriteLine();
-			Console.WriteLine("1. Add song to tracklist");
-			Console.WriteLine("2. Add song to playlist");
-			Console.WriteLine("3. View playlist");
-			Console.WriteLine("4. Exit");
+			Console.WriteLine("1. Add song to playlist");
+			Console.WriteLine("2. View playlist");
+			Console.WriteLine("3. Exit");
 			var key = Console.ReadKey();
 			return key;
+		}
+		public void Output(LinkedList<string> tracks)
+		{
+			Console.Clear();
+			foreach (var track in tracks)
+			{
+				Console.WriteLine(track);
+			}
+			Console.ReadKey();
 		}
 	}
 }

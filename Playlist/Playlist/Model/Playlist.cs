@@ -23,5 +23,10 @@ namespace Playlist.Model
 			playlist.AddLast(name);
 			return playlist;
 		}
+		public LinkedList<string> MetalCore()
+		{
+			track.MetalCore.AddLast(name);
+			return playlist;
+		}
 	}
 }
