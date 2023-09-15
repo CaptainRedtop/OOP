@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zbc23nksk\\Source\\Repos\\CaptainRedtop\\OOP\\Playlist\\Playlist\\Playlist.csproj": {}
+    "C:\\Users\\zbc23nksk\\source\\repos\\CaptainRedtop\\OOP\\JediMindTricks\\JediMindTricks\\JediMindTricks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zbc23nksk\\Source\\Repos\\CaptainRedtop\\OOP\\Playlist\\Playlist\\Playlist.csproj": {
+    "C:\\Users\\zbc23nksk\\source\\repos\\CaptainRedtop\\OOP\\JediMindTricks\\JediMindTricks\\JediMindTricks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zbc23nksk\\Source\\Repos\\CaptainRedtop\\OOP\\Playlist\\Playlist\\Playlist.csproj",
-        "projectName": "Playlist",
-        "projectPath": "C:\\Users\\zbc23nksk\\Source\\Repos\\CaptainRedtop\\OOP\\Playlist\\Playlist\\Playlist.csproj",
+        "projectUniqueName": "C:\\Users\\zbc23nksk\\source\\repos\\CaptainRedtop\\OOP\\JediMindTricks\\JediMindTricks\\JediMindTricks.csproj",
+        "projectName": "JediMindTricks",
+        "projectPath": "C:\\Users\\zbc23nksk\\source\\repos\\CaptainRedtop\\OOP\\JediMindTricks\\JediMindTricks\\JediMindTricks.csproj",
         "packagesPath": "C:\\Users\\zbc23nksk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zbc23nksk\\source\\repos\\CaptainRedtop\\OOP\\Playlist\\Playlist\\obj\\",
+        "outputPath": "C:\\Users\\zbc23nksk\\source\\repos\\CaptainRedtop\\OOP\\JediMindTricks\\JediMindTricks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zbc23nksk\\AppData\\Roaming\\NuGet\\NuGet.Config",

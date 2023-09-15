@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Playlist",
+    "\\Playlist\\Playlist",
+    "\\Playlist\\Playlist\\Model"
   ],
+  "SelectedNode": "\\Playlist\\Playlist\\Model\\Track.cs",
   "PreviewInSolutionExplorer": false
 }
