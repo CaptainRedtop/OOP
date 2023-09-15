@@ -1,9 +1,17 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\Libary",
     "\\Libary\\Libary"
   ],
   "SelectedNode": "\\Libary\\Libary\\Program.cs",
+=======
+    "\\Playlist",
+    "\\Playlist\\Playlist",
+    "\\Playlist\\Playlist\\Model"
+  ],
+  "SelectedNode": "\\Playlist\\Playlist\\Model\\Track.cs",
+>>>>>>> fcf4999a51e3801e8f7d86149055f97fe9d10f8a
   "PreviewInSolutionExplorer": false
 }
