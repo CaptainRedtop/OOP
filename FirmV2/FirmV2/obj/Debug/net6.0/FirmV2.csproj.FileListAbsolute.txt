@@ -1,0 +1,14 @@
+C:\Users\klich\source\repos\CaptainRedtop\OOP\FirmV2\FirmV2\bin\Debug\net6.0\FirmV2.exe
+C:\Users\klich\source\repos\CaptainRedtop\OOP\FirmV2\FirmV2\bin\Debug\net6.0\FirmV2.deps.json
+C:\Users\klich\source\repos\CaptainRedtop\OOP\FirmV2\FirmV2\bin\Debug\net6.0\FirmV2.runtimeconfig.json
+C:\Users\klich\source\repos\CaptainRedtop\OOP\FirmV2\FirmV2\bin\Debug\net6.0\FirmV2.dll
+C:\Users\klich\source\repos\CaptainRedtop\OOP\FirmV2\FirmV2\bin\Debug\net6.0\FirmV2.pdb
+C:\Users\klich\source\repos\CaptainRedtop\OOP\FirmV2\FirmV2\obj\Debug\net6.0\FirmV2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klich\source\repos\CaptainRedtop\OOP\FirmV2\FirmV2\obj\Debug\net6.0\FirmV2.AssemblyInfoInputs.cache
+C:\Users\klich\source\repos\CaptainRedtop\OOP\FirmV2\FirmV2\obj\Debug\net6.0\FirmV2.AssemblyInfo.cs
+C:\Users\klich\source\repos\CaptainRedtop\OOP\FirmV2\FirmV2\obj\Debug\net6.0\FirmV2.csproj.CoreCompileInputs.cache
+C:\Users\klich\source\repos\CaptainRedtop\OOP\FirmV2\FirmV2\obj\Debug\net6.0\FirmV2.dll
+C:\Users\klich\source\repos\CaptainRedtop\OOP\FirmV2\FirmV2\obj\Debug\net6.0\refint\FirmV2.dll
+C:\Users\klich\source\repos\CaptainRedtop\OOP\FirmV2\FirmV2\obj\Debug\net6.0\FirmV2.pdb
+C:\Users\klich\source\repos\CaptainRedtop\OOP\FirmV2\FirmV2\obj\Debug\net6.0\FirmV2.genruntimeconfig.cache
+C:\Users\klich\source\repos\CaptainRedtop\OOP\FirmV2\FirmV2\obj\Debug\net6.0\ref\FirmV2.dll
