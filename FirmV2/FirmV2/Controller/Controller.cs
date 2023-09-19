@@ -28,6 +28,16 @@ namespace FirmV2.Controller
             Employee björn = new Leader("Björn", "¨Fyrosia", 54000, true, "Security");
             Employee maria = new Leader("Maria", "Gregersen", 54000, true, "Shipment");
             Employee natashia = new Leader("Natashia", "Fredesen", 54000, true, "Hiring");
+            Employee isabella = new Employee("Isabella", "Andersen", 42000);
+            Employee marie = new Employee("Marie", "Skafte", 42000);
+            Employee mie = new Employee("Mie", "Jensen", 42000);
+            Employee line = new Employee("Line", "Meyer", 42000);
+            Employee jesper = new Employee("jesper", "Hansen", 42000);
+            Employee henrik = new Employee("Henrik", "Westen", 42000);
+            Employee benjamin = new Employee("Benjamin", "Guldbjerg", 42000);
+            Employee bente = new Employee("Bente", "Ovesen", 42000);
+            Employee patricia = new Employee("Patricia", "Kastrup", 42000);
+            Employee nina = new Employee("Nina", "Madsen", 42000);
         }
     }
 }
