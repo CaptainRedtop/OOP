@@ -8,6 +8,6 @@ namespace AnimalShelter.Model.Animals
 {
 	internal class Rabbit : Animal
 	{
-        internal Rabbit (string gender, string fur, byte legs, bool egglaying) : base(gender, fur, legs, egglaying) { }
-    }
+		internal Rabbit(string gender, string fur, byte legs, bool mammal) : base(gender, fur, legs, mammal) { }
+	}
 }

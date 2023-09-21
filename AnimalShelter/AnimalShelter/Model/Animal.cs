@@ -6,19 +6,17 @@ using System.Threading.Tasks;
 
 namespace AnimalShelter.Model
 {
-	internal class Animal
+	abstract class Animal
 	{
 		protected string gender;
-		protected string fur;
 		protected byte legs;
-		protected bool egglaying;
+		protected bool mamal
 
-		internal Animal(string gender, string fur, byte legs, bool egglaying) 
+		protected Animal(string gender, byte legs, bool mammal)
 		{
 			this.gender = gender;
-			this.fur = fur;
 			this.legs = legs;
-			this.egglaying = egglaying;
+			this.egglaying = mammal;
 		}
 	}
 }
