@@ -12,28 +12,50 @@ namespace ExceptionHandling.Controller
 	internal class Controller
 	{
 		View.View gui = new View.View();
+		Model.ReadFile readFile = new Model.ReadFile();
 		View.ExceptionView exceptionGui = new View.ExceptionView();
 		FileWriteController writeController;
 		internal void StartController()
 		{
+			bool exit = true;
 			Random rand = new Random();
-			while (true)
+			while (exit == true)
 			{
+				//Getting numbers
 				int number1 = rand.Next(0, 10);
 				int number2 = gui.Gui();
+				//Getting resault
 				float resault = Calcu(number1, number2);
+				//Counting log entries
+				int numberofExceptions = readFile.ReadLogFile();
+				var key = gui.ExceptionList(numberofExceptions);
+
+				if (key.Key == ConsoleKey.Y)
+				{
+					exit = false;
+				}
 			}
 		}
 		internal int Calcu( int number1, int number2)
 		{
-			try
+			int resault;
+			//Setting highest number first and dividing
+            try
 			{
-				int resault = number1 / number2;
+				if (number1 > number2)
+				{
+					resault = number1 / number2;
+				}
+				else
+				{
+
+                    resault = number2 / number1;
+                }
 				return resault;
 			}
 			catch (Exception ex)
 			{
-				writeController = new FileWriteController(ex.Message);
+				writeController = new FileWriteController(ex.ToString());
 				exceptionGui.ExceptionMessage("You can't divid by 0", ex);
 				return 0;
 			}

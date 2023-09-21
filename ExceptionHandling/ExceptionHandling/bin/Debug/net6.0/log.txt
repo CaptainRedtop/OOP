@@ -1,0 +1,24 @@
+
+Log Entry : 16:14:23 21. september 2023
+  :
+  :System.DivideByZeroException: Attempted to divide by zero.
+   at ExceptionHandling.Controller.Controller.Calcu(Int32 number1, Int32 number2) in C:\Users\klich\Source\Repos\CaptainRedtop\OOP\ExceptionHandling\ExceptionHandling\Controller\Controller.cs:line 49
+-------------------------------
+
+Log Entry : 16:14:32 21. september 2023
+  :
+  :System.DivideByZeroException: Attempted to divide by zero.
+   at ExceptionHandling.Controller.Controller.Calcu(Int32 number1, Int32 number2) in C:\Users\klich\Source\Repos\CaptainRedtop\OOP\ExceptionHandling\ExceptionHandling\Controller\Controller.cs:line 44
+-------------------------------
+
+Log Entry : 16:14:39 21. september 2023
+  :
+  :System.DivideByZeroException: Attempted to divide by zero.
+   at ExceptionHandling.Controller.Controller.Calcu(Int32 number1, Int32 number2) in C:\Users\klich\Source\Repos\CaptainRedtop\OOP\ExceptionHandling\ExceptionHandling\Controller\Controller.cs:line 44
+-------------------------------
+
+Log Entry : 16:25:51 21. september 2023
+  :
+  :System.DivideByZeroException: Attempted to divide by zero.
+   at ExceptionHandling.Controller.Controller.Calcu(Int32 number1, Int32 number2) in C:\Users\klich\Source\Repos\CaptainRedtop\OOP\ExceptionHandling\ExceptionHandling\Controller\Controller.cs:line 44
+-------------------------------
