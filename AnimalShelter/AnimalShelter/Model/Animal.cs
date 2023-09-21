@@ -10,7 +10,7 @@ namespace AnimalShelter.Model
 	{
 		protected string gender;
 		protected byte legs;
-		protected bool mamal
+		protected bool mammal
 
 		protected Animal(string gender, byte legs, bool mammal)
 		{

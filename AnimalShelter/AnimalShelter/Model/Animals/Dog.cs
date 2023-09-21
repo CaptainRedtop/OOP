@@ -8,6 +8,10 @@ namespace AnimalShelter.Model.Animals
 {
 	internal class Dog : Animal
 	{
-		internal Dog(string gender, string fur, byte legs, bool mammal) : base(gender, fur, legs, mammal) { }
+		private string fur;
+		internal Dog(string gender, string fur, byte legs, bool mammal) : base(gender, legs, mammal)
+		{
+			this.fur = fur;
+		}
 	}
 }
