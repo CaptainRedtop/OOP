@@ -1,0 +1,15 @@
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\obj\Debug\net6.0\BoGodt(test).csproj.AssemblyReference.cache
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\obj\Debug\net6.0\BoGodt(test).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\obj\Debug\net6.0\BoGodt(test).AssemblyInfoInputs.cache
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\obj\Debug\net6.0\BoGodt(test).AssemblyInfo.cs
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\obj\Debug\net6.0\BoGodt(test).csproj.CoreCompileInputs.cache
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\bin\Debug\net6.0\BoGodt(test).exe
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\bin\Debug\net6.0\BoGodt(test).deps.json
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\bin\Debug\net6.0\BoGodt(test).runtimeconfig.json
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\bin\Debug\net6.0\BoGodt(test).dll
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\bin\Debug\net6.0\BoGodt(test).pdb
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\obj\Debug\net6.0\BoGodt(test).dll
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\obj\Debug\net6.0\refint\BoGodt(test).dll
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\obj\Debug\net6.0\BoGodt(test).pdb
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\obj\Debug\net6.0\BoGodt(test).genruntimeconfig.cache
+C:\Users\zbc23nksk\source\repos\CaptainRedtop\OOP\BoGodt(test)\BoGodt(test)\obj\Debug\net6.0\ref\BoGodt(test).dll
